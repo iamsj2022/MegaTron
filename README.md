@@ -39,3 +39,37 @@ I have tried many State of the art language models from BERT-large to DialoGPT t
 ## Below are some results: 
 
 <p align = "center"><img align = "center" src = "NewGIF.gif" /></p>
+
+
+## Project KT 
+
+Here we are using Distilbert Model after testing around 22 models including BERT,ALBert,ProphetNet,Electra,Elmo,T5,Bart and Others.
+Please Checkout [HuggingFace](https://huggingface.co/models) website for the NLP models .
+
+Finally, Distilbert Model was Choosen based on the Performance .
+
+We are Using Google Api's for the Web Scrapping in case DistilBert Models fails to give the Answer from the trained dataset provided by iNeuron.ai. Then The Megatron does Scrapping from google Search engine using the api's and then it's been Summarized .
+
+In Case Customers is not satisfied with the Bot then Bot will lead to Support Agents.
+
+In this Way it will take 40-45 % load for now and After 6 months the prediction is of about 70%.
+
+
+## Code to Run :-- 
+
+``` Python
+#Step 1 :-- Configure the Enviroment settings in the IDE 
+# I am using Pycharm and Conda
+#Step 2 :-- Open the Terminal of Pycharm
+pip install -r requirements.txt
+```
+
+```Python
+Step 3 :-- Run the app.py
+python app.py
+```
+
+
+
+
+
